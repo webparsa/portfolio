@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <title>WebParsa</title>
+    <link rel="icon" href="/assets/images/logo.webp" type="image/webp" />
+
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://webparsa.com/en/main.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="ro"
+      href="https://webparsa.com/ro/main.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="fa"
+      href="https://webparsa.com/fa/main.html"
+    />
+    <link rel="alternate" hreflang="x-default" href="https://webparsa.com/" />
+
+    <meta
+      name="google-site-verification"
+      content="Y-S00-Fd5BbpFZk-OLAFUMPbm-RkwbZJJFX8xRhdYpk"
+    />
+
+    <script>
+      const lang = navigator.language || navigator.userLanguage;
+      if (lang.startsWith("ro")) {
+        window.location.href = "/ro/main.html";
+      } else if (lang.startsWith("fa")) {
+        window.location.href = "/fa/main.html";
+      } else {
+        window.location.href = "/en/main.html";
+      }
+    </script>
+  </head>
+  <body>
+    <p>JavaScript is required to access the site. Please enable JavaScript.</p>
+  </body>
+</html>

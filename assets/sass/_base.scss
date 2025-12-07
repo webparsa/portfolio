@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  letter-spacing: 0.03rem;
+  line-height: 2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #000031;
+}
+
+.loader-paarent {
+  position: fixed;
+  inset: 0;
+  background-color: #001436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999999999999999 !important;
+  gap: 1rem;
+}
+
+.loader {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  height: 2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #000 95%, #0000) 35% 35%/0.5rem
+    0.5rem no-repeat #fff;
+  transform: scaleX(var(--s, 1)) rotate(0deg);
+  animation: l6 1s infinite linear;
+}
+
+.loader:after {
+  --s: -1;
+  animation-delay: -0.1s;
+}
+
+@keyframes l6 {
+  100% {
+    transform: scaleX(var(--s, 1)) rotate(360deg);
+  }
+}
+
+section {
+  scroll-margin-top: 7rem;
+}
+
+.background-site {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  inset: 0;
+  background-image: url("../images/blob-scene-haikei.svg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+}
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+code,
+pre {
+  font-family: "Fira Code", monospace;
+}

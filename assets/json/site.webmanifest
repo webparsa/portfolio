@@ -1,0 +1,16 @@
+{
+  "name": "Parsa | Front-end Developer",
+  "short_name": "WebParsa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0000",
+  "theme_color": "#0f0f0f",
+  "description": "Portfolio of a Front-end Developer skilled in HTML, CSS, SASS, and JavaScript — focused on speed, SEO, and responsive design.",
+  "icons": [
+    {
+      "src": "/assets/images/logo391.jpg",
+      "sizes": "391x391",
+      "type": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+Disallow: /assets/
+Disallow: /css/
+Disallow: /images/
+Disallow: /json/
+Disallow: /sass/
+Disallow: /script/
+Disallow: /video/
+Disallow: /README
+Disallow: /LICENSE
+
+Allow: /en/main.html
+Allow: /ro/main.html
+Allow: /fa/main.html
+Allow: /index.html
+
+Sitemap: https://www.webparsa.com/sitemap.xml
+
+
+User-agent: Googlebot
+Allow: /

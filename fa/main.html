@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>وب پارسا | برنامه نویس فرانت اند</title>
+    <meta
+      name="description"
+      content="وب پارسا Front-end Developer؛ متخصص در HTML, CSS, SASS و JavaScript با تمرکز روی سرعت، سئو و طراحی ریسپانسیو."
+    />
+    <meta
+      name="keywords"
+      content="وب پارسا Front-end Developer؛ متخصص در HTML, CSS, SASS و JavaScript با تمرکز روی سرعت، سئو و طراحی ریسپانسیو."
+    />
+
+    <link rel="canonical" href="https://webparsa.com/" />
+
+    <link rel="alternate" hreflang="fa" href="https://webparsa.com/fa/" />
+    <link rel="alternate" hreflang="en" href="https://webparsa.com/en/" />
+    <link rel="alternate" hreflang="ro" href="https://webparsa.com/ro/" />
+
+    <link rel="icon" href="/assets/images/logo.webp" type="image/webp" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Parsa | Front-end Developer" />
+    <meta
+      property="og:description"
+      content="وب پارسا Front-end Developer؛ متخصص در HTML, CSS, SASS و JavaScript با تمرکز روی سرعت، سئو و طراحی ریسپانسیو."
+    />
+    <meta property="og:image" content="/assets/images/logo.webp" />
+    <meta property="og:url" content="https://webparsa.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Cdn`s -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;800&family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Parsa | Front-end Developer" />
+    <meta
+      name="twitter:description"
+      content="وب پارسا Front-end Developer؛ متخصص در HTML, CSS, SASS و JavaScript با تمرکز روی سرعت، سئو و طراحی ریسپانسیو."
+    />
+    <meta name="twitter:image" content="/assets/images/logo.webp" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/assets/json/site.webmanifest" />
+    <meta name="theme-color" content="#0f0f0f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- Author & Copyright -->
+    <meta name="author" content="Parsa" />
+    <meta name="copyright" content="Parsa Portfolio" />
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <style>
+      * {
+        font-family: "sahel", "shabnam", "Vazirmatn", sans-serif;
+      }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K9HV22PG");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K9HV22PG"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="loader-paarent" dir="rtl">
+      <div class="loader"></div>
+      درحال بارگذاری...
+    </div>
+    <div class="background-site">
+      <div></div>
+    </div>
+    <header>
+      <nav class="nav nav-mobile">
+        <section class="nav-mobile-top">
+          <ul>
+            <li><a href="#about" class="nav-link">درباره من</a></li>
+            <li><a href="#portfolio" class="nav-link">نمونه‌ کارها</a></li>
+            <li><a href="#testimonials" class="nav-link">نظرات مشتریان</a></li>
+          </ul>
+        </section>
+        <section class="nav-section-mobile">
+          <a href="#contact" class="btn-hover nav-link">
+            <span>ارتباط</span>
+          </a>
+          <a href="/fa/main.html" class="nav-link nav-logo-mobile">
+            <img src="/assets/images/logo.webp" alt="" />
+          </a>
+          <section class="drop-down-lang" dir="ltr">
+            <span class="drop-down-toggle">
+              <img src="../assets/images/Flag_of_Iran_ml.webp" alt="UK Flag" />
+              FA
+              <i class="fa-solid fa-angle-right fa-angle-right-top"></i>
+            </span>
+
+            <ul class="drop-down">
+              <li>
+                <a href="../en/main.html">
+                  <img
+                    src="../assets/images/Flag-United-Kingdom.jpg"
+                    alt="RO Flag"
+                  />
+                  EN
+                </a>
+              </li>
+              <li>
+                <a href="../ro/main.html">
+                  <img src="../assets/images/Flag-Romania.jpg" alt="FA Flag" />
+                  RO
+                </a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </nav>
+
+      <nav class="nav nav-des">
+        <div class="nav-link nav-logo-contact">
+          <a href="/fa/main.html" class="nav-logo">
+            <img src="/assets/images/logo.webp" alt="" />
+          </a>
+
+          <a href="#contact" class="btn-hover">
+            <span>ارتباط</span>
+          </a>
+        </div>
+
+        <section>
+          <ul>
+            <li><a href="#about" class="nav-link">درباره من</a></li>
+            <li><a href="#portfolio" class="nav-link">نمونه‌ کارها</a></li>
+            <li><a href="#testimonials" class="nav-link">نظرات مشتریان</a></li>
+          </ul>
+        </section>
+
+        <section class="drop-down-lang" dir="ltr">
+          <span class="drop-down-toggle">
+            <img src="../assets/images/Flag_of_Iran_ml.webp" alt="UK Flag" />
+            FA
+            <i class="fa-solid fa-angle-right fa-angle-right-top"></i>
+          </span>
+
+          <ul class="drop-down">
+            <li>
+              <a href="../en/main.html">
+                <img
+                  src="../assets/images/Flag-United-Kingdom.jpg"
+                  alt="RO Flag"
+                />
+                EN
+              </a>
+            </li>
+            <li>
+              <a href="../ro/main.html">
+                <img src="../assets/images/Flag-Romania.jpg" alt="FA Flag" />
+                RO
+              </a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+
+      <section class="header-content">
+        <span class="title">
+          اینجا جاییه که ایده‌ها به <span>وبسایت</span> تبدیل میشن
+        </span>
+
+        <div class="orbit-parent">
+          <div class="center-text">
+            <h1>
+              من
+              <span id="typed" style="color: #73ff00"
+                >توسعه‌دهنده‌ی فرانت‌اند</span
+              >
+              هستم
+            </h1>
+          </div>
+
+          <div class="orbit-container">
+            <div class="orbit-item">
+              <img src="/assets/images/html-removebg-preview.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/css.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/sass-removebg-preview.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/javascript.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/jquery.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/figma.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/seo.webp" alt="" />
+            </div>
+            <div class="orbit-item">
+              <img src="/assets/images/speed.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="top-info section-info" id="about">
+        <div class="top-info-name">درباره من</div>
+        <section class="top-info-txt-img-parent">
+          <div class="top-info-text">
+            من یک توسعه‌دهنده‌ی فرانت‌اند هستم که بیش از دو سال به طور جدی در
+            این مسیر فعالیت می‌کنم.
+            <br />
+            در این مدت روی پروژه‌های واقعی کار کرده‌ام و نمونه‌کارهایی دارم که
+            نشان می‌دهند چگونه می‌توان یک ایده خام را به یک وب‌سایت کامل و
+            کارآمد تبدیل کرد.
+            <br />
+            تمرکز من همیشه بر سه اصل بوده: سرعت، سئو و ریسپانسیو بودن — چون
+            تجربه‌ی کاربری خوب، فقط به ظاهر زیبا خلاصه نمی‌شود.
+            <br />
+            کدی که می‌نویسم خوانا، قابل نگهداری و قابل توسعه است تا در آینده
+            بدون دردسر ارتقا داده شود. علاوه بر کار، علاقه‌ی زیادی به یادگیری
+            دارم و همیشه در حال به‌روزرسانی مهارت‌هایم هستم تا هر روز حرفه‌ای‌تر
+            و دقیق‌تر عمل کنم.
+            <br />
+            خوشحال می‌شوم در پروژه‌های جدید همکاری کنم و با تمرکز بر جزئیات، به
+            کسب‌وکار شما سرعت، ثبات و اعتبار واقعی ببخشم.
+          </div>
+          <div class="top-info-img">
+            <img src="/assets/images/me.webp" alt="" />
+          </div>
+        </section>
+      </section>
+
+      <section class="info-box">
+        <div class="top-info-box">
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+          <div class="top-info-box-name"><h2>مهارت‌های من</h2></div>
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+        </div>
+
+        <section class="skil skil-first">
+          <div class="skil-txt">
+            <h3>HTML</h3>
+            <p>
+              زبانیه که اسکلت اصلی هر وبسایت رو می‌سازه؛ همه متن‌ها، تیترها،
+              تصاویر و دکمه‌ها اول از همه با HTML تعریف میشن. بدونHTML هیچ
+              صفحه‌ای برای نمایش وجود نداره. اما نکته‌ی مهم‌تر اینه که HTML فقط
+              چیدن تگ‌ها کنار هم نیست. ساختار درست و استاندارد باعث میشه
+              موتورهای جستجو راحت‌تر سایت رو بخونن و رتبه‌ی بهتری بدن. همینطور
+              وقتی کد تمیز باشه، نگهداری و توسعه‌ی بعدی هم سریع‌تر و کم‌هزینه‌تر
+              انجام میشه. من در پروژه‌هایی که انجام دادم، همیشه روی نوشتن کد
+              استاندارد، قابل‌خواندن و سازگار با SEO تمرکز کردم. کاری که می‌کنم
+              اینه که ساختار وبسایت نه‌تنها برای کاربر، بلکه برای مرورگر و موتور
+              جستجو هم شفاف و بی‌نقص باشه. این باعث میشه وبسایت روی پایه‌ای
+              ساخته بشه که بعدها بدون مشکل قابل گسترش و ارتقا باشه.
+            </p>
+          </div>
+          <div class="skil-img">
+            <img
+              src="/assets/images/html-removebg-preview.webp"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-img">
+            <img src="/assets/images/css.webp" alt="" loading="lazy" />
+          </div>
+          <div class="skil-txt">
+            <h3>CSS</h3>
+            <p>
+              زبانیه که به وبسایت شکل و ظاهر میده. اگر HTML رو اسکلت در نظر
+              بگیریم، CSS همون پوسته و استایلشه که همه‌چیز رو زیبا، کاربرپسند و
+              جذاب می‌کنه. رنگ‌ها، فونت‌ها، فاصله‌ها، انیمیشن‌ها و حتی ریسپانسیو
+              بودن سایت، همگی با CSS ساخته میشن. اما موضوع فقط زیبایی نیست. CSS
+              استاندارد و بهینه باعث میشه وبسایت روی هر دستگاه و هر مرورگری درست
+              دیده بشه؛ از موبایل گرفته تا مانیتور بزرگ. من در پروژه‌هام روی
+              نوشتن CSS تمیز، سازماندهی‌شده و قابل‌گسترش تمرکز دارم. این یعنی
+              اگه در آینده بخواید ظاهر سایت تغییر کنه یا امکاناتی بهش اضافه بشه،
+              همه‌چیز سریع و بدون دردسر انجام میشه.
+            </p>
+            <br />
+            <h3>Flex-box && Css-grid</h3>
+            <p>
+              دو ابزار اصلی برای مدیریت چیدمان در CSS هستن. Flexbox بیشتر برای
+              چینش یک‌بعدی (ردیف یا ستون) به کار میره و فوق‌العاده برای کنترل
+              فاصله‌ها و ترازبندی عناصر مناسبه. در مقابل، CSS-Grid به شما اجازه
+              میده صفحه رو به شبکه‌های منظم تقسیم کنید و همزمان در دو بعد (سطر و
+              ستون) کنترل کامل روی طراحی داشته باشید. من در پروژه‌هام ترکیب این
+              دو رو استفاده می‌کنم؛ Flexbox برای بخش‌هایی که نیاز به انعطاف سریع
+              دارن، و CSS-Grid برای ساختارهای کلی و پیچیده‌تر. نتیجه اینه که
+              وبسایت هم روی موبایل و هم روی دسکتاپ، منظم، واکنش‌گرا و کاملاً
+              حرفه‌ای دیده میشه. این روش باعث میشه هم طراحی مدرن باشه و هم توسعه
+              و تغییرات آینده راحت‌تر انجام بشه.
+            </p>
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-txt">
+            <h3>SASS</h3>
+            <p>
+              ابزار پیشرفته‌ی من برای نوشتن استایل‌های حرفه‌ایه؛ چیزی فراتر از
+              CSS عادی. با Sass می‌تونم کدها رو ماژولار و ساختاریافته بنویسم،
+              متغیرها و میکسین‌های اختصاصی بسازم و کل استایل یک پروژه رو تحت
+              کنترل داشته باشم. مزیتش اینه که اگر مثلاً رنگ اصلی یا اندازه‌ی یک
+              عنصر در پروژه تغییر کنه، لازم نیست بین ده‌ها فایل به‌دنبال اون
+              مقدار بگردم. همه‌ی مقادیر کلیدی (مثل رنگ‌ها، فونت‌ها، فاصله‌ها)
+              یک‌بار به صورت متغیر تعریف می‌شن و با تغییر همون متغیر، کل پروژه
+              به‌طور خودکار به‌روز میشه. این روش منجر به کدی میشه که استاندارد،
+              سریع، و مقیاس‌پذیر هست؛ چیزی که برای پروژه‌های حرفه‌ای و توسعه‌ی
+              آینده ضروریه.
+            </p>
+          </div>
+          <div class="skil-img">
+            <img
+              src="/assets/images/sass-removebg-preview.webp"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-img">
+            <img src="/assets/images/javascript.webp" alt="" loading="lazy" />
+          </div>
+          <div class="skil-txt">
+            <h3>JAVASCRIPT</h3>
+            <p>
+              جاوااسکریپت زبان اصلی برای ساخت وبسایت‌های پویاست؛ زبانی که باعث
+              میشه صفحات فقط ایستا نباشن، بلکه تعامل و حرکت داشته باشن. با
+              جاوااسکریپت میشه تجربه‌ای کاربرپسند و پویا ایجاد کرد، جایی که سایت
+              فقط نمایش نمی‌ده، بلکه پاسخ می‌ده. من با استانداردهای مدرن
+              جاوااسکریپت (ES6 و بالاتر) کار می‌کنم، به همین دلیل کدی که
+              می‌نویسم تمیز، قابل نگهداری و مقیاس‌پذیره. علاوه بر این، با
+              جاوااسکریپت امکان ارتباط مستقیم با سرور رو فراهم می‌کنم؛ یعنی سایت
+              می‌تونه اطلاعات رو از سرور دریافت یا ارسال کنه و بدون نیاز به رفرش
+              کامل صفحه، همیشه به‌روز و داینامیک بمونه. برای من جاوااسکریپت
+              نقطه‌ایه که طراحی زیبا به عملکرد واقعی وصل میشه و وبسایت رو به یک
+              تجربه کامل و تعاملی برای کاربر تبدیل می‌کنه.
+            </p>
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-txt">
+            <h3>JQUERY</h3>
+            <p>
+              یکی از قدیمی‌ترین و پراستفاده‌ترین کتابخونه‌های جاوااسکریپت بود که
+              سال‌ها به توسعه‌ی وب سرعت داد. من با jQuery آشنا هستم و می‌تونم
+              پروژه‌هایی که هنوز روی این کتابخونه کار می‌کنن رو مدیریت و نگهداری
+              کنم. با این حال، تمرکز اصلی من روی جاوااسکریپت مدرن (ES6+) هست،
+              چون امروزه بیشتر پروژه‌های حرفه‌ای با استانداردهای جدید توسعه داده
+              می‌شن. آشنایی با jQuery به من این مزیت رو می‌ده که در صورت نیاز،
+              حتی روی سیستم‌ها یا کدهای قدیمی هم بدون مشکل کار کنم.
+            </p>
+          </div>
+          <div class="skil-img">
+            <img src="/assets/images/jquery.webp" alt="" loading="lazy" />
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-img">
+            <img src="/assets/images/figma.webp" alt="" loading="lazy" />
+          </div>
+          <div class="skil-txt">
+            <h3>FIGMA</h3>
+            <p>
+              هر پروژه‌ای از یک ایده شروع میشه. من از Figma استفاده می‌کنم تا
+              اون ایده‌ها رو به یک طرح اولیه و قابل فهم تبدیل کنم؛ طرحی که شما
+              می‌تونید قبل از نوشتن حتی یک خط کد، شکل کلی وبسایتتون رو ببینید.
+              این طرح به‌عنوان نقشه‌ی راه عمل می‌کنه و قدم‌به‌قدم به وبسایت
+              واقعی شما تبدیل میشه؛ سایتی که دقیقاً مطابق نیاز شما ساخته شده و
+              بدون فاصله‌ی اضافی بین طراحی و اجرا به نتیجه می‌رسه.
+            </p>
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-txt">
+            <h3>SEO</h3>
+            <p>
+              سئو یک انتخاب جانبی نیست؛ بلکه رکن اصلی موفقیت هر وبسایته. سایتی
+              که در نتایج گوگل دیده نشه، مثل کتابی می‌مونه که در کتابخانه قرار
+              گرفته اما هیچ‌وقت به دست خواننده نمی‌رسه. ظاهر زیبا و امکانات خوب
+              بدون دیده‌شدن ارزشی ایجاد نمی‌کنه. من در کدنویسی فرانت‌اند، اصول
+              سئو رو از ابتدا رعایت می‌کنم: ساختار صحیح HTML، استفاده‌ی درست از
+              تگ‌های معنایی، سرعت بارگذاری بالا و طراحی واکنش‌گرا. نتیجه اینه که
+              وبسایتی که می‌سازم فقط یک نمای ظاهری نیست، بلکه آماده‌ست در
+              موتورهای جستجو رتبه بگیره و بازدیدکننده‌ی واقعی جذب کنه. برای هر
+              کسب‌وکار، سئو تفاوت بین داشتن یک سایت عادی و داشتن یک ابزار
+              قدرتمند برای رشد و فروشه.
+            </p>
+          </div>
+          <div class="skil-img">
+            <img src="/assets/images/seo.webp" alt="" loading="lazy" />
+          </div>
+        </section>
+        <section class="skil">
+          <div class="skil-img">
+            <img src="/assets/images/speed.webp" alt="" loading="lazy" />
+          </div>
+          <div class="skil-txt">
+            <h3>SPEED</h3>
+            <p>
+              سرعت سایت یک جزئیات کوچک نیست؛ یکی از عوامل حیاتی موفقیت وبسایته.
+              تحقیقات نشون میده کاربرها اگر صفحه بیشتر از چند ثانیه طول بکشه تا
+              باز بشه، خیلی سریع اون رو ترک می‌کنن. حتی موتورهای جستجو مثل گوگل
+              هم سرعت رو به‌عنوان یک فاکتور کلیدی برای رتبه‌بندی در نظر می‌گیرن.
+              من در پروژه‌هام روی بهینه‌سازی سرعت تمرکز ویژه دارم: بهینه کردن
+              تصاویر، کم‌کردن حجم کدها، استفاده درست از کش و نوشتن استایل و
+              اسکریپت‌های سبک. این یعنی وبسایتی که نه‌تنها سریع لود میشه، بلکه
+              تجربه‌ی روان و بدون وقفه به کاربر ارائه میده. در نهایت، سرعت سایت
+              فقط راحتی کاربر نیست؛ سرعت بالاتر مساوی‌ست با رضایت بیشتر، رتبه
+              بهتر در گوگل و نرخ تبدیل بالاتر برای کسب‌وکار شما.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="top-info section-info second-top-info" id="portfolio">
+        <div class="top-info-name">نمونه‌ کارها</div>
+        <section class="top-info-txt-img-parent">
+          <div class="top-info-text">
+            نمونه‌کارها بخشی هست که می‌تونید نتیجه‌ی واقعی کار من رو ببینید. هر
+            پروژه‌ای که اینجا قرار گرفته، نشون میده چطور روی جزئیات، سرعت، سئو و
+            ریسپانسیو بودن تمرکز می‌کنم تا وبسایتی ساخته بشه که هم زیباست و هم
+            عملکرد مناسبی داره.
+            <br />
+            این نمونه‌ها فقط نشون‌دهنده‌ی گذشته نیستن؛ بلکه تصویری روشن از کیفیت
+            و سبکی هستن که می‌تونید در پروژه‌های آینده هم انتظار داشته باشید. هر
+            کدوم از این کارها تجربه‌ای بوده که به من کمک کرده پروژه‌های بعدی رو
+            سریع‌تر و دقیق‌تر انجام بدم.
+          </div>
+          <div class="top-info-img">
+            <img src="/assets/images/nemoonekar.webp" alt="" loading="lazy" />
+          </div>
+        </section>
+      </section>
+
+      <section class="info-box">
+        <div class="top-info-box">
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+          <div class="top-info-box-name"><h2>پروژه‌های کامل</h2></div>
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+        </div>
+
+        <section class="info-content">
+          <div class="info-content-box">
+            <div class="info-content-box-img">
+              <img
+                src="/assets/images/laserom.webp"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a
+                  href="https://laserom.netlify.app/"
+                  class="btn-hover"
+                  target="_blank"
+                >
+                  <span
+                    >Website Visit&nbsp;<i class="fa-solid fa-link"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="https://laserom.netlify.app" target="_blank"
+                >Laserom.com&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Built a fully responsive service website showcasing metal and
+                wood products. Features include product catalog, interactive
+                device for product selection, and a clean layout to highlight
+                services and offerings. Developed using HTML, CSS, Sass, and
+                JavaScript, optimized for fast loading and mobile-friendly
+                experience. The design emphasizes clarity, usability, and
+                professional presentation, making it easy for visitors to browse
+                and understand service
+              </p>
+            </div>
+          </div>
+          <div class="info-content-box">
+            <div class="info-content-box-img">
+              <img
+                src="/assets/images/Screenshot 2025-10-25 174513.png"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="https://lupra3d.com" class="btn-hover" target="_blank">
+                  <span
+                    >Website Visit&nbsp;<i class="fa-solid fa-link"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="https://lupra3d.com" target="_blank"
+                >Lupra3d.com&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Developed an interactive semi-e-commerce website for custom
+                3D-printed products. Users can select product options according
+                to their preferences, and the selections are seamlessly sent to
+                WhatsApp for order processing — no back-end required. Built with
+                HTML, CSS, Sass, and JavaScript, optimized for responsive
+                layouts across desktop, tablet, and mobile devices. The
+                interface is user-friendly, visually engaging, and demonstrates
+                a creative approach to online customization and ordering without
+                traditional e-commerce infrastructure
+              </p>
+            </div>
+          </div>
+          <div class="info-content-box">
+            <div class="info-content-box-img">
+              <img
+                src="/assets/images/webparsa.jpg"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a
+                  href="https://webparsa.com/"
+                  class="btn-hover"
+                  target="_blank"
+                >
+                  <span
+                    >Website Visit&nbsp;<i class="fa-solid fa-link"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="https://webparsa.com/" target="_blank"
+                >webparsa.com&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>this website</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- <div class="top-info-box top-info-box-mini">
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+          <div class="top-info-box-name"><h2>مینی‌ پروژه‌ها</h2></div>
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+        </div> -->
+
+        <!-- <section class="info-content-mini">
+          <div class="info-content-box-mini">
+            <div class="info-content-box-img info-content-box-img-mini">
+              <img
+                src="/assets/images/webparsa.jpg"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="#" class="btn-hover" target="_blank">
+                  <span
+                    ><i class="fa-solid fa-link"></i>&nbsp;بازدید از
+                    وبسایت</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="#" target="_blank"
+                >WebParsa.com&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea
+                quam vel soluta eaque perspiciatis, dolore fuga minus aliquid,
+                suscipit nam nisi ad itaque temporibus eligendi saepe beatae
+                facilis numquam atque quia, optio aspernatur quasi voluptatibus.
+                Atque
+              </p>
+            </div>
+          </div>
+
+          <div class="info-content-box-mini">
+            <div class="info-content-box-img info-content-box-img-mini">
+              <img
+                src="/assets/images/laserom.webp"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="#" class="btn-hover" target="_blank">
+                  <span
+                    ><i class="fa-solid fa-link"></i>&nbsp;بازدید از
+                    وبسایت</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="#" target="_blank"
+                >Modern Login Page&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea
+                quam vel soluta eaque perspiciatis, dolore fuga minus aliquid,
+                suscipit nam nisi ad itaque temporibus eligendi saepe beatae
+                facilis numquam atque quia, optio aspernatur quasi voluptatibus.
+                Atque
+              </p>
+            </div>
+          </div>
+          <div class="info-content-box-mini">
+            <div class="info-content-box-img info-content-box-img-mini">
+              <img
+                src="/assets/images/webparsa.jpg"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="#" class="btn-hover" target="_blank">
+                  <span
+                    ><i class="fa-solid fa-link"></i>&nbsp;بازدید از
+                    وبسایت</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="#" target="_blank"
+                >Products Page&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea
+                quam vel soluta eaque perspiciatis, dolore fuga minus aliquid,
+                suscipit nam nisi ad itaque temporibus eligendi saepe beatae
+                facilis numquam atque quia, opttatibus. Atque
+              </p>
+            </div>
+          </div>
+          <div class="info-content-box-mini">
+            <div class="info-content-box-img info-content-box-img-mini">
+              <img
+                src="/assets/images/laserom.webp"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="#" class="btn-hover" target="_blank">
+                  <span
+                    ><i class="fa-solid fa-link"></i>&nbsp;بازدید از
+                    وبسایت</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="#" target="_blank"
+                >Product Page&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea
+                quam vel soluta eaque perspiciatis, dolore fuga minus aliquid,
+                suscipit nam nisi ad itaque temigendi saepe beatae facilis
+                numquam atque quia, optio aspvoluptatibus. Atque
+              </p>
+            </div>
+          </div>
+          <div class="info-content-box-mini">
+            <div class="info-content-box-img info-content-box-img-mini">
+              <img
+                src="/assets/images/webparsa.jpg"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="#" class="btn-hover" target="_blank">
+                  <span
+                    ><i class="fa-solid fa-link"></i>&nbsp;بازدید از
+                    وبسایت</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="#" target="_blank"
+                >Music Player&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea
+                quam vel soluta eaque perspicitur quasi voluptatibus. Atque
+              </p>
+            </div>
+          </div>
+          <div class="info-content-box-mini">
+            <div class="info-content-box-img info-content-box-img-mini">
+              <img
+                src="/assets/images/laserom.webp"
+                alt="test"
+                loading="lazy"
+              />
+              <div class="overlay-site-link">
+                <a href="#" class="btn-hover" target="_blank">
+                  <span
+                    ><i class="fa-solid fa-link"></i>&nbsp;بازدید از
+                    وبسایت</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="info-content-box-txt">
+              <a href="#" target="_blank"
+                >Todo List&nbsp;<i class="fa-solid fa-link"></i
+              ></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea
+                quam vel soluta eaque perspiciatis, dolore fuga minus aliquid,
+                suscipit nam nisi ad itaque temporibus eligendi saepe beatae
+                facilis numquam atque quia, optio aspernatur quasi voluptatibus.
+                Atque
+              </p>
+            </div>
+          </div>
+        </section> -->
+      </section>
+
+      <section class="top-info second-top-info section-info" id="testimonials">
+        <div class="top-info-name">نظرات مشتریان</div>
+        <section class="top-info-txt-img-parent">
+          <div class="top-info-text">
+            نظرات نشان‌دهنده‌ی کیفیت واقعی همکاری هستند. خروجی یک پروژه تنها در
+            طراحی و کدنویسی خلاصه نمی‌شود؛ بلکه رضایت در کل فرآیند همکاری ارزش
+            نهایی را مشخص می‌کند. بازخورد برای من معیاری کلیدی است که میزان
+            تعهد، دقت و نتیجه‌ی کار را روشن می‌سازد و نشان می‌دهد پروژه نه‌فقط
+            یک وبسایت، بلکه یک تجربه‌ی موفق بوده است.
+          </div>
+          <div class="top-info-img">
+            <img
+              src="/assets/images/client-comments.jpg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </section>
+      </section>
+
+      <section class="info-box info-box-testimonials">
+        <div class="top-info-box">
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+          <div class="top-info-box-name"><h2>نظرات مشتریان</h2></div>
+          <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+          </div>
+        </div>
+
+        <div class="swiper testimonialSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="info-client">
+                <div class="info-client-img">
+                  <img
+                    src="/assets/images/Untitled (15).jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <span>نام و نام خانوادگی</span>
+                  <a href="#">Laserom.com</a>
+                </div>
+              </div>
+              <div class="info-client-txt">
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرملورم
+                  ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-client">
+                <div class="info-client-img">
+                  <img
+                    src="/assets/images/Untitled (15).jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <span>نام کارفرما</span>
+                  <a href="#">Laserom.com</a>
+                </div>
+              </div>
+              <div class="info-client-txt">
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرملورم
+                  ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-client">
+                <div class="info-client-img">
+                  <img
+                    src="/assets/images/Untitled (15).jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <span>نام کارفرما</span>
+                  <a href="#">Laserom.com</a>
+                </div>
+              </div>
+              <div class="info-client-txt">
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرملورم
+                  ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-client">
+                <div class="info-client-img">
+                  <img
+                    src="/assets/images/Untitled (15).jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <span>نام کامل</span>
+                  <a href="#">Laserom.com</a>
+                </div>
+              </div>
+              <div class="info-client-txt">
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرملورم
+                  ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-client">
+                <div class="info-client-img">
+                  <img
+                    src="/assets/images/Untitled (15).jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <span>نام کارفرما</span>
+                  <a href="#">Laserom.com</a>
+                </div>
+              </div>
+              <div class="info-client-txt">
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرملورم
+                  ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="top-info second-top-info section-info" id="contact">
+        <div class="top-info-name">ارتباط</div>
+        <section class="contact-section-parent">
+          <section class="contact-section-left">
+            <div class="contact-section-left-txt">
+              <span>ارتباط با من</span>
+              <p>
+                ارتباط، نقطه‌ی آغاز هر همکاری موفق است. اگر ایده‌ای برای یک
+                وبسایت دارید یا به دنبال توسعه و بهبود پروژه‌ی موجود هستید،
+                اینجا جایی است که می‌توانیم مسیر را شروع کنیم .
+              </p>
+            </div>
+
+            <div class="contact-section-left-p-e">
+              <div>
+                <span>شماره واتساپ :</span>
+                <a href="https://wa.me/40737679603" target="_blank" dir="ltr"
+                  >+40-737679603</a
+                >
+              </div>
+              <div>
+                <span>آدرس ایمیل :</span>
+                <a href="mailto:parsamaghbouli@gmail.com" target="_blank"
+                  >parsamaghbouli@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-section-left-social-media">
+              <a class="socialBtn">
+                <span class="svgContainer">
+                  <svg
+                    fill="white"
+                    class="svgIcon"
+                    viewBox="0 0 448 512"
+                    height="2rem"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="BG instagram-BG"></span>
+              </a>
+
+              <a
+                class="socialBtn"
+                href="https://wa.me/989039492882"
+                target="_blank"
+              >
+                <span class="svgContainer">
+                  <svg
+                    viewBox="0 0 448 512"
+                    fill="white"
+                    height="2rem"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="BG whatsappBG"></span>
+              </a>
+
+              <a
+                class="socialBtn"
+                href="https://www.linkedin.com/in/parsa-maghbooli"
+                target="_blank"
+              >
+                <span class="svgContainer">
+                  <svg
+                    viewBox="0 0 448 512"
+                    height="2rem"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svgIcon"
+                    fill="white"
+                  >
+                    <path
+                      d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="BG linkdinBG"></span>
+              </a>
+
+              <a class="socialBtn">
+                <span class="svgContainer">
+                  <svg fill="white" viewBox="0 0 496 512" height="2rem">
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="BG githubBG"></span>
+              </a>
+            </div>
+          </section>
+
+          <section class="contact-section-right">
+            <form
+              id="enquery-form"
+              name="service-request"
+              action="https://formspree.io/f/xvgdpjpa"
+              method="POST"
+              data-netlify="true"
+            >
+              <input type="hidden" name="form-name" value="service-request" />
+              <p hidden>
+                <label
+                  >Do not fill this field if you are human:
+                  <input name="bot-field"
+                /></label>
+              </p>
+
+              <h2>فرم درخواست</h2>
+
+              <div class="form-content">
+                <div>
+                  <label for="name">نام کامل :</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div>
+                  <label for="phone">شماره تلفن :</label>
+                  <div class="phone-field">
+                    <div class="country-code">
+                      <select id="country-select" name="code-phone"></select>
+                    </div>
+
+                    <input type="tel" id="phone" name="phone" required/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-content">
+                <div>
+                  <label for="email">آدرس ایمیل :</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div>
+                  <label for="subject">حوزه درخواستی شما :</label>
+                  <select id="service" name="service" required>
+                    <option value="">لطفا گزینه مورد نظر را انتخاب کنید</option>
+                    <option value="طراحی و توسعه وبسایت">
+                      طراحی و توسعه وبسایت
+                    </option>
+                    <option value="بهینه‌سازی سرعت سایت">
+                      بهینه‌سازی سرعت سایت
+                    </option>
+                    <option value="سئو و بهبود رتبه">سئو و بهبود رتبه</option>
+                    <option value="ریسپانسیو و موبایل‌فرندلی">
+                      ریسپانسیو و موبایل‌فرندلی
+                    </option>
+                    <option value="پشتیبانی و تغییرات جزئی">
+                      پشتیبانی و تغییرات جزئی
+                    </option>
+                    <option value="مشاوره و راهنمایی">مشاوره و راهنمایی</option>
+                    <option value="سایر">سایر</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-message">
+                <label for="message">پیام شما :</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="پیام خود را اینجا بنویسید…"
+                ></textarea>
+              </div>
+
+              <div class="check-btn">
+                <button type="submit" class="btn-hover">
+                  <span id="send-form">ارسال</span>
+                </button>
+              </div>
+            </form>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer dir="ltr">
+      <sectio class="footer-top footer-top-fa">
+        <div class="footer-top-content footer-top-content-left" dir="rtl">
+          <a href="main.html" class="footer-title">
+            <img src="/assets/images/logo.webp" alt="" />
+            <span>WebParsa</span>
+          </a>
+          <p>
+            اینجا نقطه‌ایه که ایده‌ها مسیر واقعی پیدا می‌کنن. من وبسایت‌هایی
+            می‌سازم که فقط زیبا نیستن، بلکه سریع و کارآمد هم هستن. تمرکز روی سئو
+            و ریسپانسیو باعث میشه پروژه‌ها ماندگار باشن. هر کدی که می‌نویسم،
+            قابل تغییر و توسعه در آینده‌ست. هدفم همیشه ارائه‌ی کیفیتی‌ست که برای
+            کسب‌وکار شما ارزش ایجاد کنه.
+          </p>
+        </div>
+        <div class="footer-top-content Quick-links" dir="rtl">
+          <span class="footer-title">دسترسی سریع</span>
+          <ul>
+            <li><a href="#about">درباره من</a></li>
+            <li><a href="#portfolio">نمونه‌ کارها</a></li>
+            <li><a href="#testimonials">نظرات مشتریان</a></li>
+            <li><a href="#contact">ارتباط</a></li>
+          </ul>
+        </div>
+        <div class="footer-top-content contact-footer" dir="rtl">
+          <span class="footer-title">ارتباط</span>
+          <ul>
+            <li>
+              <span>واتساپ&nbsp;:</span>
+              <a href="https://wa.me/40737679603" target="_blank" dir="ltr"
+                >+40-737679603</a
+              >
+            </li>
+            <li>
+              <span>ایمیل&nbsp;:</span>
+              <a href="mailto:parsamaghbouli@gmail.com" target="_blank"
+                >parsamaghbouli@gmail.com</a
+              >
+            </li>
+            <li>
+              <span>آدرس&nbsp;:</span>
+              <a
+                href="https://maps.app.goo.gl/GUgAfmvVTmHWcxKH8"
+                target="_blank"
+                >București, România</a
+              >
+            </li>
+            <li>
+              <span>سوشال مدیا&nbsp;:</span>
+              <a href="#"
+                ><svg
+                  fill="white"
+                  class="svgIcon"
+                  viewBox="0 0 448 512"
+                  height="2rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="https://wa.me/989039492882" target="_blank">
+                <svg
+                  viewBox="0 0 448 512"
+                  fill="white"
+                  height="2rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/parsa-maghbooli"
+                target="_blank"
+              >
+                <svg
+                  viewBox="0 0 448 512"
+                  height="2rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="svgIcon"
+                  fill="white"
+                >
+                  <path
+                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#">
+                <svg fill="white" viewBox="0 0 496 512" height="2rem">
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </sectio>
+
+      <sectio class="footer-bottom">
+        <span> © 2025 همه حقوق این وبسایت محفوظ است</span>
+        <span
+          >ساخته شده با عشق توسط
+          <a href="/fa/main.html">پارسا مقبولی اصل ❤️ا</a></span
+        >
+      </sectio>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/assets/script/main_fa.js"></script>
+    <script src="/assets/script/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script>
+      lottie.loadAnimation({
+        container: document.querySelector(".contact-animation"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "/assets/json/TTA Contact Us.json",
+      });
+    </script>
+  </body>
+</html>
